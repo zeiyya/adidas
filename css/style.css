@@ -1,0 +1,239 @@
+@import url(./fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+.header {
+    padding: 15px 30px;
+}
+
+.header__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    padding: 30px 15px 28px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    color: black;
+    transition: 0.4s;
+}
+
+.nav__link:hover {
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search__text {
+    padding: 8px 12px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    outline: none;
+    width: 216px;
+}
+
+.search__btn {
+    padding: 8px 17px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14px;
+    background: #000000;
+    border-radius: 0px 10px 10px 0px;
+    color: white;
+    border: 1px solid black;
+}
+
+.banner {
+    background: url(../img/bg.png) no-repeat top center/cover;
+    color: white;
+    height: 100vh;
+}
+
+.banner__wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.banner__h {
+    font-family: 'Rubik', sans-serif;
+    font-size: 59px;
+    font-weight: 600;
+    line-height: 70px;
+    text-transform: uppercase;
+    margin: 20px 0 10px;
+}
+
+.banner__p {
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 31px;
+    text-transform: uppercase;
+}
+
+
+.cards__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card {
+    flex-basis: 25%;
+    background: #181D28;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    padding: 20px 0;
+    color: white;
+    transition: 0.4s;
+    flex-grow: 0;
+}
+
+.card__h {
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+
+}
+
+.card:hover {
+    background: #6B4B6B;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+    height: 100%;
+}
+
+
+.info {
+    padding: 40px 0;
+}
+
+.info__h {
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 20px;
+}
+
+.info__p {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 18px;
+}
+
+.ads img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.category {
+    margin: 40px 0;
+}
+
+.category__h {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.category__nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 14px 0;
+}
+
+.category__item {
+    flex-basis: 20%;
+}
+
+.category__link {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 18px;
+    color: black;
+}
+
+
+.footer {
+    background: #181D28;
+    padding: 35px;
+}
+
+.footer__wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.footer__link {
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+}
